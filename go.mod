@@ -1,7 +1,9 @@
-module github.com/hashicorp/terraform-provider-google-beta/v3
+module github.com/hashicorp/terraform-provider-google-beta
 
 require (
-	cloud.google.com/go/bigtable v1.7.1
+	cloud.google.com/go v0.78.0
+	cloud.google.com/go/bigtable v1.8.0
+	github.com/GoogleCloudPlatform/declarative-resource-client-library v0.0.0-20210209234318-2149dbf673cf
 	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/aws/aws-sdk-go v1.31.9 // indirect
 	github.com/client9/misspell v0.3.4
@@ -13,11 +15,10 @@ require (
 	github.com/golangci/golangci-lint v1.18.0
 	github.com/hashicorp/errwrap v1.0.0
 	github.com/hashicorp/go-cleanhttp v0.5.2
-	github.com/hashicorp/go-multierror v1.0.0
+	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-version v1.2.1
-	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.6.0 // indirect
-	github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.2
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.4
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/hashstructure v1.1.0
 	github.com/onsi/ginkgo v1.8.0 // indirect
@@ -26,9 +27,11 @@ require (
 	github.com/spf13/afero v1.2.2 // indirect
 	github.com/spf13/pflag v1.0.3 // indirect
 	github.com/zclconf/go-cty v1.5.1 // indirect
-	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
-	golang.org/x/oauth2 v0.0.0-20210113160501-8b1d76fa0423
-	google.golang.org/api v0.38.0
+	golang.org/x/net v0.0.0-20210119194325-5f4716e94777
+	golang.org/x/oauth2 v0.0.0-20210220000619-9bb904979d93
+	google.golang.org/api v0.41.0
+	google.golang.org/genproto v0.0.0-20210303154014-9728d6b83eeb
+	google.golang.org/protobuf v1.25.0
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
 
