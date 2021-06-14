@@ -1,7 +1,7 @@
 module github.com/hashicorp/terraform-provider-google-beta
 
 require (
-	cloud.google.com/go v0.78.0
+	cloud.google.com/go v0.83.0
 	cloud.google.com/go/bigtable v1.7.1
 	github.com/GoogleCloudPlatform/declarative-resource-client-library v0.0.0-20210209234318-2149dbf673cf
 	github.com/apparentlymart/go-cidr v1.1.0
@@ -27,11 +27,11 @@ require (
 	github.com/spf13/afero v1.2.2 // indirect
 	github.com/spf13/pflag v1.0.3 // indirect
 	github.com/zclconf/go-cty v1.5.1 // indirect
-	golang.org/x/net v0.0.0-20210119194325-5f4716e94777
-	golang.org/x/oauth2 v0.0.0-20210220000619-9bb904979d93
-	google.golang.org/api v0.41.0
-	google.golang.org/genproto v0.0.0-20210303154014-9728d6b83eeb
-	google.golang.org/protobuf v1.25.0
+	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
+	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
+	google.golang.org/api v0.48.0
+	google.golang.org/genproto v0.0.0-20210604141403-392c879c8b08
+	google.golang.org/protobuf v1.26.0
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
 
